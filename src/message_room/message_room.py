@@ -84,7 +84,7 @@ class GetJson():
     prompt='Location',
     help='The Location of the Session',
     required=True,
-    envvar="Location")
+    envvar="LOCATION")
 @click.option('--date',
     prompt=True,
     help="The Date of the Session",
