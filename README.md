@@ -130,6 +130,7 @@ C:\>message_room\Scripts\activate
 
 Every question can be stored as a variable in the environment. This is useful if you want to reuse the same question in multiple messages.
 
+Linux:
 export ROOMID=<roomID>
 
 export TOKEN=<token>
@@ -153,3 +154,28 @@ export SPEAKERS=<speakers>
 export URL=<url>
 
 export URL_LABEL=<url_label>
+
+Windows:
+set ROOMID=<roomID>
+
+set TOKEN=<token>
+
+set IMAGEURL=<imageURL>
+
+set HEADER=<smalltext>
+
+set TITLE=<title>
+
+set DESCRIPTION=<description>
+
+set LOCATION=<location>
+
+set DATE=<date>
+
+set TIME=<time>
+
+set SPEAKERS=<speakers>
+
+set URL=<url>
+
+set URL_LABEL=<url_label>
