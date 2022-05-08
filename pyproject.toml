@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyWebExMessage"
-version = "1.0.5"
+version = "1.0.10"
 description = "WebEx Bot that generates adaptive cards to a WebEx Room"
 authors = ["John Capobianco <ptcapo@gmail.com>"]
 packages = [{ include = "message_room", from = "src"}]

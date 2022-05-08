@@ -19,7 +19,7 @@ In WebEx create and customize a room for your session
 
 ### Get a 24-hour token and Room ID
 Visit the following developer.webex.com URL to get the room ID:
-[List_Rooms](https://developer.webex.com/docs/api/v1/rooms/list
+[List_Rooms](https://developer.webex.com/docs/api/v1/rooms/list-rooms)
 
 #### Get a 24-hour token
 Click the copy button to obtain a 24-hour token. This token will be used to access the room. Keep it safe and secure. I recommending using environment variables to store the token so you do not have to input it everytime you run the bot.
@@ -101,29 +101,55 @@ C:\>message_room\Scripts\activate
 
 ```
 #### The form questions:
+
 ##### Question 1 - What is the roomID?
+
 ##### Question 2 - What is the token?
+
 ##### Question 3 - What is the image URL?
+
 ##### Question 4 - What is the small header text?
+
 ##### Question 5 - What is the title of the session?
+
 ##### Question 6 - What is the description of the session?
+
 ##### Question 7 - Where is the session?
+
 ##### Question 8 - What day is the session?
+
 ##### Question 9 - What time is the session?
+
 ##### Question 10 - Who are the speakers?
+
 ##### Question 11 - URL of the session or any other URL?
+
 ##### Question 12 - A label for the URL button?
+
 #### Environment variables
+
 Every question can be stored as a variable in the environment. This is useful if you want to reuse the same question in multiple messages.
+
 export ROOMID=<roomID>
+
 export TOKEN=<token>
+
 export IMAGEURL=<imageURL>
+
 export HEADER=<smalltext>
+
 export TITLE=<title>
+
 export DESCRIPTION=<description>
+
 export LOCATION=<location>
+
 export DATE=<date>
+
 export TIME=<time>
+
 export SPEAKERS=<speakers>
+
 export URL=<url>
+
 export URL_LABEL=<url_label>

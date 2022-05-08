@@ -8,16 +8,14 @@ import rich_click as click
 # -------------------------
 
 from jinja2 import Environment, FileSystemLoader
-template_dir = 'Template/'
-env = Environment(loader=FileSystemLoader(template_dir))
 template_dir = Path(__file__).resolve().parent
-
+env = Environment(loader=FileSystemLoader(template_dir))
 class GetJson():
     def __init__(self,
-                image,
-                header,
                 roomid,
                 token,
+                image,
+                header,                
                 title,
                 description,
                 location,
