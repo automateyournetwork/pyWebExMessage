@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyWebExMessage"
+version = "1.0.5"
+description = "WebEx Bot that generates adaptive cards to a WebEx Room"
+authors = ["John Capobianco <ptcapo@gmail.com>"]
+packages = [{ include = "message_room", from = "src"}]
+readme = "README.md"
+
+[tool.poetry.scripts]
+message_room = 'message_room.script:run'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+Jinja2 = "^3.1.2"
+rich-click = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
