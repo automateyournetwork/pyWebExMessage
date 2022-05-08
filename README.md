@@ -135,7 +135,7 @@ export ROOMID=<roomID>
 
 export TOKEN=<token>
 
-export IMAGEURL=<imageURL>
+export IMAGE=<imageURL>
 
 export HEADER=<smalltext>
 
@@ -160,7 +160,7 @@ set ROOMID=<roomID>
 
 set TOKEN=<token>
 
-set IMAGEURL=<imageURL>
+set IMAGE=<imageURL>
 
 set HEADER=<smalltext>
 
